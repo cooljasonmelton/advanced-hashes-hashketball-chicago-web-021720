@@ -135,7 +135,7 @@ def num_points_scored(player)
   points = game_hash.reduce(nil) do |memo, (key, value) 
   i = 0 
   while i < key[:players].length do 
-    if key[:players].include?(player)
+    if key[:players][:player_name].include?(player)
     i += 1 
   end 
   memo
