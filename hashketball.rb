@@ -133,8 +133,8 @@ end
 def just_the_players
 players = []
 i = 0 
-while i < game_hash[:home][:]
-  game_hash[:home]
+while i < game_hash[:home][:players].length do 
+  players << game_hash[:home][:players][i]
 
   
 
