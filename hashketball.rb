@@ -135,7 +135,7 @@ players = []
 i = 0 
 while i < game_hash[:home][:players].length do 
   players << game_hash[:home][:players][i]
-  players << game_hash[:home][:players][i]
+  players << game_hash[:away][:players][i]
   i += 1 
 end 
 players 
