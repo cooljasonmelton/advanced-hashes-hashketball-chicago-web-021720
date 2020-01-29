@@ -153,6 +153,8 @@ def num_points_scored(player)
     if just_the_players[i][:player_name] == player 
       points = just_the_players[i][:points]
     end 
+    i += 1 
+  end 
   points 
 end 
 
