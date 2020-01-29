@@ -136,6 +136,7 @@ def num_points_scored(player)
   i = 0 
   while i < key[:players].length do 
     if key[:players][:player_name].include?(player)
+      memo = 
     i += 1 
   end 
   memo
