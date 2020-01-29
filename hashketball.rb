@@ -3,7 +3,18 @@ require "pp"
 #binding.pry stops execution at that point
 
 def game_hash
-  game_hash = {}
+  game_hash = {
+    :home => {
+      :team_name => "a",
+      :colors => [],
+      :players => []
+    }, 
+    :away => {
+      :team_name => "a",
+      :colors => [],
+      :players => 
+    }
+  }
 end 
 
 def num_points_scored
