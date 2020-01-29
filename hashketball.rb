@@ -135,10 +135,10 @@ players = []
 i = 0 
 while i < game_hash[:home][:players].length do 
   players << game_hash[:home][:players][i]
-
-  
-
-players =
+  players << game_hash[:home][:players][i]
+  i += 1 
+end 
+players 
 end 
 
 
@@ -149,6 +149,7 @@ end
 
 def num_points_scored(player)
   points = nil 
+  puts just_the_players
   points 
 end 
 
