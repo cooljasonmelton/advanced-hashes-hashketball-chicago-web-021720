@@ -203,7 +203,8 @@ def player_stats(player)
   while i < just_the_players.length do 
     if player == just_the_players[i][:player_name]
       
-      stats = just_the_players[i].delete(:player_name)
+      stats = just_the_players[i].slice(:player_name)
+      
 
     end 
     i += 1 
