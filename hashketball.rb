@@ -136,7 +136,7 @@ def num_points_scored(player)
   # game_hash[:home or :away][:players][i][:player_name]
   # player == :player_name
   game_hash.reduce({}) do |memo, (key, value)|
-    if key[value][:players] =
+    key[value][:players] =
     memo
 end 
 
