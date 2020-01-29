@@ -132,6 +132,9 @@ end
 
 
 def num_points_scored(player)
+  points = nil 
+  # game_hash[:home or :away][:players][i][:player_name]
+  puts game_hash[:home][:players][0][:player_name]
 
   points 
 end 
