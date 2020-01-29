@@ -151,7 +151,7 @@ while i < game_hash[:away][:players].length do
   i += 1 
 end 
 end 
-  points 
+  puts points 
 end 
 
 
