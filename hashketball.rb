@@ -199,8 +199,8 @@ def player_numbers(team)
 end 
 
 def player_stats(player) 
-  just_the_players
-  
+  a = just_the_players.index(player)
+  a
   
   #i = 0 
   #while i < just_the_players.length do 
