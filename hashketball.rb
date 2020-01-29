@@ -185,12 +185,17 @@ def player_numbers(team)
   if team == game_hash[:home][:team_name]
     i = 0 
     while i < game_hash[:home][:players].length do 
-      game_hash[:home][:players][i][]
+      numbers << game_hash[:home][:players][i][:number]
       i += 1 
     end 
-    
-  
-  
+  else 
+    i = 0 
+    while i < game_hash[:away][:players].length do 
+      numbers << game_hash[:away][:players][i][:number]
+      i += 1 
+    end 
+  end 
+  numbers 
 end 
 
 def player_stats
