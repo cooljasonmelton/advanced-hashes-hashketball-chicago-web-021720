@@ -137,6 +137,7 @@ i = 0
 if !points
 while i < game_hash[:home][:players].length do
   search_home = game_hash[:home][:players][i][:player_name]
+  puts search_home
   if search_home == player 
     points = game_hash[:home][:players][i][:points]
   end 
