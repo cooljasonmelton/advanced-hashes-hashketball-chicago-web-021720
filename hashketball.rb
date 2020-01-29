@@ -152,14 +152,15 @@ def num_points_scored(player)
   points 
 end 
 
-
-
-
-
-
-
-
-def shoe_size
+def shoe_size(player)
+  i = 0 
+  while i < just_the_players.length do 
+    if just_the_players[i][:player_name] == player 
+      points = just_the_players[i][:shoe_size]
+    end 
+    i += 1 
+  end 
+  points 
 end 
 
 def team_colors
