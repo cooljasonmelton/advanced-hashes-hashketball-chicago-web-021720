@@ -181,6 +181,10 @@ def team_names
 end 
 
 def player_numbers(team)
+  numbers = []
+  home = 
+  if team == game_hash[:home][:team_name]
+    
   
   
 end 
