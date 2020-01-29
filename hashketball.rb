@@ -198,7 +198,18 @@ def player_numbers(team)
   numbers 
 end 
 
-def player_stats
+def player_stats(player) 
+  just_the_players
+  
+  
+  #i = 0 
+  #while i < just_the_players.length do 
+  #  if player == just_the_players[i][:player_name]
+  #    stats = just_the_players[i]
+  #  end 
+  #  i += 1 
+  #end
+  #stats 
 end 
 
 def big_shoe_rebounds
