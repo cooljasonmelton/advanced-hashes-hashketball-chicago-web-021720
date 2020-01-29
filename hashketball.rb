@@ -182,8 +182,9 @@ end
 
 def player_numbers(team)
   numbers = []
-  home = 
   if team == game_hash[:home][:team_name]
+    i = 0 
+    while i < game_hash[:home][:]
     
   
   
