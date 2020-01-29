@@ -133,15 +133,22 @@ end
 
 def num_points_scored(player)
   points = game_hash.reduce(nil) do |memo, (key, value) 
-  
-  key[:players]
+  i = 0 
+  while i < key[:players].length do 
+    key[:players]
+    i += 1 
+  end 
   memo
 end 
-  
-  
-  
   points 
 end 
+
+
+
+
+
+
+
 
 def shoe_size
 end 
