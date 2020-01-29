@@ -148,8 +148,11 @@ end
 
 
 def num_points_scored(player)
-  points = nil 
-  puts just_the_players
+  i = 0 
+  while i < just_the_players.length do 
+    if just_the_players[i][:player_name] == player 
+      points = just_the_players[i][:points]
+    end 
   points 
 end 
 
