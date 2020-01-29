@@ -133,15 +133,11 @@ end
 
 def num_points_scored(player)
   points = nil 
-  i = 0
-  # game_hash[:home or :away][:players][i][:player_name]
-  # player == :player_name
-  game_hash.reduce(nil) do |memo, (key, value)|
-    puts key[:players]
-    #while i < key[:players].length do 
-    #key[:players] 
-    memo = 4 
-end 
+i = 0 
+while 
+search_home = game_hash[:home][:player]
+
+search_away = game_hash[:away]
 
   points 
 end 
