@@ -92,7 +92,7 @@ def game_hash
           :slam_dunks => 10 
         },
         {
-          :player_name => "Alan Anderson",
+          :player_name => "",
           :number => 0,
           :shoe => 16,
           :points => 22,
