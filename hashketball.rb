@@ -135,7 +135,8 @@ def num_points_scored(player)
   points = nil 
   # game_hash[:home or :away][:players][i][:player_name]
   # player == :player_name
-  if 
+  game_hash.reduce({})
+
 
   points 
 end 
