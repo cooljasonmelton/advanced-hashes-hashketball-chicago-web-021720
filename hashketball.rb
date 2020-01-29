@@ -199,17 +199,14 @@ def player_numbers(team)
 end 
 
 def player_stats(player) 
-  a = just_the_players.index("#{player}")
-  puts just_the_players[a]
-  
-  #i = 0 
-  #while i < just_the_players.length do 
-  #  if player == just_the_players[i][:player_name]
-  #    stats = just_the_players[i]
-  #  end 
-  #  i += 1 
-  #end
-  #stats 
+  i = 0 
+  while i < just_the_players.length do 
+    if player == just_the_players[i][:player_name]
+      stats = just_the_players[i]
+    end 
+    i += 1 
+  end
+  stats 
 end 
 
 def big_shoe_rebounds
