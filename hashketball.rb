@@ -141,6 +141,7 @@ def num_points_scored(player)
     i += 1 
   end 
   memo
+  puts memo
 end 
   points 
 end 
