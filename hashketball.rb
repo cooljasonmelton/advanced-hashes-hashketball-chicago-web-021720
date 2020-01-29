@@ -199,7 +199,7 @@ def player_numbers(team)
 end 
 
 def player_stats(player) 
-  a = just_the_players.find_index("#{player}")
+  a = just_the_players.index("#{player}")
   puts just_the_players[a]
   
   #i = 0 
