@@ -144,9 +144,9 @@ while i < game_hash[:home][:player].length do
 end 
 elsif !points 
 while i < game_hash[:away][:player].length do
-  search_home = game_hash[:home][:player][i][:player_name]
-  if search_home == player 
-    points = game_hash[:home][:player][i][:points]
+  search_away = game_hash[:away][:player][i][:player_name]
+  if search_away == player 
+    points = game_hash[:away][:player][i][:points]
   end 
   i += 1 
 end 
