@@ -202,6 +202,7 @@ def player_stats(player)
   i = 0 
   while i < just_the_players.length do 
     if player == just_the_players[i][:player_name]
+      
       stats = just_the_players[i]
     end 
     i += 1 
