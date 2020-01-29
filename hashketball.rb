@@ -141,12 +141,6 @@ end
 players 
 end 
 
-
-
-
-
-
-
 def num_points_scored(player)
   i = 0 
   while i < just_the_players.length do 
