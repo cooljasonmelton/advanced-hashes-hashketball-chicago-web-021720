@@ -133,6 +133,7 @@ end
 
 def num_points_scored(player)
   points = game_hash.reduce(nil) do |memo, (key, value) 
+  
   key[:players]
   memo
 end 
