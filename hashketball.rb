@@ -164,6 +164,8 @@ def shoe_size(player)
 end 
 
 def team_colors(team)
+  just_the_team_colors = {}
+  
   
 end 
 
