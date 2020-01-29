@@ -131,7 +131,11 @@ def game_hash
 end 
 
 def just_the_players
-  
+  the_players = game_hash.reduce([]) do |memo, (key, value)|
+    memo << 
+    
+  end 
+
   
 end 
 
