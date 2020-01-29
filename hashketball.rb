@@ -171,7 +171,7 @@ def team_colors(team)
   else 
     colors = game_hash[:away][:team_colors]
   end 
-  colors 
+  puts colors 
 end 
 
 def team_names
