@@ -200,7 +200,7 @@ end
 
 def player_stats(player) 
   a = just_the_players.find_index("#{player}")
-  just_the_players[a]
+  puts just_the_players[a]
   
   #i = 0 
   #while i < just_the_players.length do 
