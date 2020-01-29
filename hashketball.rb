@@ -165,7 +165,7 @@ end
 
 def team_colors(team)
   colors = nil
-  if team == 
+  if team == game_hash[:team]
     
     
     
