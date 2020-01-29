@@ -156,7 +156,7 @@ def shoe_size(player)
   i = 0 
   while i < just_the_players.length do 
     if just_the_players[i][:player_name] == player 
-      shoe = just_the_players[i][:shoe_size]
+      shoe = just_the_players[i][:shoe]
     end 
     i += 1 
   end 
