@@ -134,11 +134,23 @@ end
 def num_points_scored(player)
   points = nil 
 i = 0 
-while i < 
-search_home = game_hash[:home][:player]
-
-search_away = game_hash[:away]
-
+if !points
+while i < game_hash[:home][:player].length do
+  search_home = game_hash[:home][:player][i][:player_name]
+  if search_home == player 
+    points = game_hash[:home][:player][i][:points]
+  end 
+  i += 1 
+end 
+elsif !points 
+while i < game_hash[:away][:player].length do
+  search_home = game_hash[:home][:player][i][:player_name]
+  if search_home == player 
+    points = game_hash[:home][:player][i][:points]
+  end 
+  i += 1 
+end 
+end 
   points 
 end 
 
