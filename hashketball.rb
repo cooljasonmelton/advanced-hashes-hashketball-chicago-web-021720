@@ -164,8 +164,8 @@ def shoe_size(player)
 end 
 
 def team_colors(team)
-  colors = nil
   if team == game_hash[:home][:team_name]
+    colors = game_hash[:home][:team_colors]
     
     
     
