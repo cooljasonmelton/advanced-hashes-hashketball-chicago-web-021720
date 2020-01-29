@@ -135,8 +135,10 @@ def num_points_scored(player)
   points = nil 
   # game_hash[:home or :away][:players][i][:player_name]
   # player == :player_name
-  game_hash.reduce({})
-
+  game_hash.reduce({}) do |memo, (key, value)|
+    if key[value] =
+    memo
+end 
 
   points 
 end 
